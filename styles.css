@@ -1,0 +1,54 @@
+/* #app {
+  display: flex;
+  flex-direction: row;
+} */
+
+.progressBarKontainer {
+  display: flex;
+  justify-content: center;
+  /* display: flex;
+  flex-direction: column;
+  position: fixed;
+  top: 30px;
+  left: 20rem; */
+}
+
+/* #feedingBar #cleaningBar #moodBar {
+  margin: 10px;
+} */
+
+.feedingBar {
+  margin: 10px;
+}
+.cleaningBar {
+  margin: 10px;
+}
+.moodBar {
+  margin: 10px;
+}
+
+.bildeKontainer {
+  display: flex;
+  justify-content: center;
+}
+
+.kaninBilde {
+  width: 30vh;
+  height: 27vh;
+  margin-top: 50px;
+  border-radius: 45px 10px 45px 10px;
+}
+
+
+.knapp {
+  margin-left: 30px;
+  height: 40px;
+  width: 50%;
+  background-color: black;
+  color: chocolate;
+  border: solid chocolate;
+}
+
+body {
+  background-color: forestgreen;
+}
